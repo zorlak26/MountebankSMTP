@@ -1,0 +1,17 @@
+{
+    "name": "HTTPImposter",
+    "protocol": "http",
+    "port": 8484,
+    "stubs": [
+    {
+        "responses": [
+        {
+            "is": {
+                "statusCode": 200,
+                "body": "OK"
+            }
+        }
+        ]
+    }
+    ]
+}
